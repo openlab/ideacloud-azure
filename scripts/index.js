@@ -1,6 +1,6 @@
 ﻿var cjs = window.createjs;
 var debug = false;
-var dataSourceUrl = "http://social-cloud.cloudapp.net:80/";
+var dataSourceUrl = "<CHANGE URL HERE>";
 var useSocketIO = true;
 var showing = false;
 
