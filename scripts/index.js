@@ -1,6 +1,6 @@
 ﻿var cjs = window.createjs;
 var debug = false;
-var dataSourceUrl = "<CHANGE URL HERE>";
+var dataSourceUrl = "http://social-cloud.cloudapp.net:80/";
 var useSocketIO = true;
 var showing = false;
 
@@ -12,8 +12,8 @@ var showing = false;
     var mode = 0;
     var effGoto = false;   
 
-    var twitterSearchPhrase = 'Microsoft';
-    var instaSearchPhrase = 'Microsoft';
+    var twitterSearchPhrase = 'oscon';
+    var instaSearchPhrase = 'oscon';
 
     var options = {
         bgColor : '#000000',

@@ -1,6 +1,6 @@
 ﻿var cjs = window.createjs;
 var debug = false;
-var dataSourceUrl = "http://confoo-cloud.cloudapp.net:80/";
+var dataSourceUrl = "http://social-cloud.cloudapp.net:80/";
 var useSocketIO = true;
 var showing = false;
 
@@ -13,8 +13,8 @@ var showing = false;
     var sizeH = 1200;
     var mode = 0;  
 
-    var twitterSearchPhrase = 'Microsoft';
-    var instaSearchPhrase = 'Microsoft';
+    var twitterSearchPhrase = 'oscon';
+    var instaSearchPhrase = 'oscon';
     var speed = 1;
     var speedFactor = 0.5;
     var bgColor = '#000000';
